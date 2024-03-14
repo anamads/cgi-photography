@@ -4,9 +4,9 @@ body {
   margin: 0 auto;
   max-width: 1920px;
 }
-img:not(.followicons img, .wrap img) {
+/*img:not(.followicons img, .wrap img) {
   pointer-events: none;
-}
+}*/
 html {
   margin: 0 auto;
   font-family: "Manrope", sans-serif;
@@ -43,6 +43,13 @@ strong {
 }
 #hamburger-icon {
   display: none;
+}
+.hamburger {
+  position: relative;
+}
+.hamburger li:first-child {
+  display: none;
+  position: absolute;
 }
 .button {
   display: inline-block;
@@ -359,7 +366,7 @@ nav a:hover {
 }
 
 .blob {
-  background-image: url("./LEMON.png");
+  background-image: url("./lemon.png");
   background-size: cover;
   width: 100%;
   height: auto;
@@ -672,6 +679,30 @@ h2 .bold {
 
 /*Questions*/
 
+.icon-main {
+  background-color: #00bcd460;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+
+  border-radius: 20px;
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+}
+
+.questions ul {
+  padding: 0;
+}
+.question {
+  font-family: "Spartan", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  position: relative;
+  color: #5c5a5a;
+}
+
 .questions {
   margin-top: 6rem;
   margin-bottom: 4rem;
@@ -689,13 +720,14 @@ h2 .bold {
   align-items: center;
   padding: 5px 0;
 }
+/*
 .questbox img {
   margin: 0 auto;
   width: 13%;
   padding: 10px;
   background-color: #00bcd480;
   border-radius: 50px;
-}
+}*/
 .qgrid {
   margin-top: 3rem;
   padding-left: 0;
@@ -1538,7 +1570,14 @@ div.image {
     display: block;
     width: 30px;
   }
-
+  #closeburger {
+    display: block;
+    position: absolute;
+    right: 0;
+  }
+  #faqbut {
+    width: 20px;
+  }
   .feed {
     margin-bottom: 0;
   }
@@ -1564,7 +1603,7 @@ div.image {
   }
 
   .banner {
-    top: 4rem;
+    top: 2rem;
     width: 100%;
   }
   .banner p {
