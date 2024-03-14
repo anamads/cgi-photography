@@ -4,9 +4,7 @@ body {
   margin: 0 auto;
   max-width: 1920px;
 }
-/*img:not(.followicons img, .wrap img) {
-  pointer-events: none;
-}*/
+
 html {
   margin: 0 auto;
   font-family: "Manrope", sans-serif;
@@ -366,7 +364,7 @@ nav a:hover {
 }
 
 .blob {
-  background-image: url("./lemon.png");
+  background-image: url("./LEMON.png");
   background-size: cover;
   width: 100%;
   height: auto;
