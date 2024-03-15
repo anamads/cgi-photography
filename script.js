@@ -30,9 +30,7 @@ for (const item of faqs) {
   const icon = question.querySelector(".icon-main");
   icon.addEventListener("click", function () {
     answer.classList.toggle("non-active");
-    const i = icon.querySelector("i");
-    i.classList.toggle("fa-xmark");
-    i.classList.toggle("fa-plus");
+ 
   });
 }
 
