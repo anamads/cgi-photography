@@ -126,10 +126,7 @@ strong {
   background-color: #212427;
   line-height: 58px;
 }
-/*
-.auditbox {
-  display: none;
-}*/
+
 button {
   font-family: "DM Sans", sans-serif;
   font-size: 1rem;
@@ -142,15 +139,13 @@ button {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
-/*.button:active {
-}*/
 
 h1 {
   color: hsl(0, 0%, 15%);
   font-size: 3.2rem;
   font-family: "Manrope", sans-serif;
 }
-/*ex gilroy 3.6*/
+
 
 h2 {
   color: hsl(0, 0%, 15%);
@@ -501,12 +496,7 @@ button.CTA:hover .learn {
   transition: all 0.7s ease-in-out;
 }
 
-/*.box img:hover {
-  transform: scale(1.01);
-  box-shadow:rgba(0, 0, 0, 0.15) 0px 4px 20px;
-  transition-duration: 500ms;
-}
-*/
+
 
 .box h4 {
   padding-left: 2rem;
@@ -719,13 +709,7 @@ h2 .bold {
   padding: 5px 0;
 }
 /*
-.questbox img {
-  margin: 0 auto;
-  width: 13%;
-  padding: 10px;
-  background-color: #00bcd480;
-  border-radius: 50px;
-}*/
+
 .qgrid {
   margin-top: 3rem;
   padding-left: 0;
