@@ -10,13 +10,13 @@ let pressButton = function () {
 press.addEventListener("mousedown", pressButton);
 
 
-const faqs = document.querySelectorAll(".faq");
+const faqs = document.querySelectorAll('.faq');
 for (const item of faqs) {
   const curr_faq = item.childNodes;
   console.log(curr_faq);
   const question = curr_faq[0];
   const answer = curr_faq[1];
-  const icon = question.querySelector(".icon-main");
+  const icon = question.querySelector('.icon-main');
   icon.addEventListener("click", function () {
     answer.classList.toggle("non-active");
     const i = icon.querySelector("faqbut");
